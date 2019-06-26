@@ -12,7 +12,8 @@ html, body {
 }
 
 html {
-  --background:rgb(255, 229, 211);
+  --background:  #F6F5AE;
+  --details:     #FEFFEA;
 }
 
 .image__section {
@@ -22,6 +23,14 @@ html {
 
 .image__section img {
   width: 80%;
-  margin: 50px auto;
+  margin: 50px auto 0 auto;
+}
+
+.details__section {
+  height: 100%;
+  width: 100%;
+  background-color: var(--details);
+  -webkit-clip-path: polygon(24% 15%, 77% 9%, 90% 0, 100% 0, 100% 100%, 0 100%, 0% 70%, 3% 27%);
+          clip-path: polygon(24% 15%, 77% 9%, 90% 0, 100% 0, 100% 100%, 0 100%, 0% 70%, 3% 27%);
 }
 /*# sourceMappingURL=style.css.map */

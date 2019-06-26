@@ -13,7 +13,8 @@ html , body  {
 }
 
 html {
-    --background :rgb(255, 229, 211);  
+    --background :  #F6F5AE;
+    --details :     #FEFFEA;
 }
 
 
@@ -23,6 +24,16 @@ html {
     text-align: center;
     img {
         width: 80%;
-        margin: 50px auto;
+        margin: 50px auto 0 auto;
     }
+}
+
+//forse metto questa sezine dentro la stessa sezione del componente pc 
+
+.details__section {
+    height: 100%;
+    width: 100%;
+    background-color: var(--details);
+    clip-path: polygon(24% 15%, 77% 9%, 90% 0, 100% 0, 100% 100%, 0 100%, 0% 70%, 3% 27%);
+
 }

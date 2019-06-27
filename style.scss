@@ -24,7 +24,7 @@ html {
     text-align: center;
     img {
         width: 80%;
-        margin: 50px auto 0 auto;
+        margin: 50px auto 30px auto;
     }
 }
 
@@ -34,6 +34,20 @@ html {
     height: 100%;
     width: 100%;
     background-color: var(--details);
-    clip-path: polygon(24% 15%, 77% 9%, 90% 0, 100% 0, 100% 100%, 0 100%, 0% 70%, 3% 27%);
+ 
+    .alsoBuy {
+        width: 100%;
+    
+    
+    .list {
+        width: 100%;
+        ul {
+            list-style-type: none;
+            display: flex;
+        }
 
+    }
+    
+    }
+    
 }

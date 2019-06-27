@@ -23,14 +23,27 @@ html {
 
 .image__section img {
   width: 80%;
-  margin: 50px auto 0 auto;
+  margin: 50px auto 30px auto;
 }
 
 .details__section {
   height: 100%;
   width: 100%;
   background-color: var(--details);
-  -webkit-clip-path: polygon(24% 15%, 77% 9%, 90% 0, 100% 0, 100% 100%, 0 100%, 0% 70%, 3% 27%);
-          clip-path: polygon(24% 15%, 77% 9%, 90% 0, 100% 0, 100% 100%, 0 100%, 0% 70%, 3% 27%);
+}
+
+.details__section .alsoBuy {
+  width: 100%;
+}
+
+.details__section .alsoBuy .list {
+  width: 100%;
+}
+
+.details__section .alsoBuy .list ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */
